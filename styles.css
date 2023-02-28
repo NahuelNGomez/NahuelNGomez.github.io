@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    background: #f5f6e0;
+    font-family: 'Golos Text', sans-serif;
+
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #9BC5C9;
+    color: black;
+    border-bottom: 4px solid #BEC496;
+}
+
+header > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    transition: background-color .33s ease;
+}
+
+header > ul > li  {
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+#aboutMe {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f6e0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#name, #career {
+    align-content: center;
+    text-align: center;
+}
+
+.separator {
+    border-bottom: 4px solid #BEC496;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleInfo {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+.experienceTitle {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 2%;
+}
+
+.experienceValue{
+    margin-left: 3%;
+}
+
+.skill {
+    margin: 0 0.6rem;
+    padding: 0.2rem;
+    display: block;
+
+}
+
+.lastSeparator {
+    margin-bottom: 10px;
+}
+
+main > div > ul > li {
+    margin: 10px;
+    padding: 1rem;
+    display: block;
+    font-size: 300%;
+
+}
+
+main > div > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 60%;
+}
+
+header > ul > li:hover {
+    transition: 1s;
+    background-color: #BEC496;
+    border-radius: 10px;
+    color: #1b1b32;
+    cursor: pointer;
+}
+main > div > ul > li:hover {
+    transition: 1s;
+    background-color: #BEC496;
+    border-radius: 10px;
+    color: #1b1b32;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.experience {
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.experience:hover, .skill:hover {
+    transition: 1s;
+    background-color: #BEC496;
+    display: block;
+    border-radius: 10px;
+}
+
+.fa-circle-dot {
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+#iconName {
+    margin: 2%;
+}
+
+.inputHover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*background-color: #BEC496;*/
+    width: 30%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0 8px 24px, rgba(17, 17, 26, 0.1) 0 16px 56px, rgba(17, 17, 26, 0.1) 0 24px 80px;
+    border-radius: 10px;
+}
+
+#name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+#career {
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+#contactTitle, #userTitle {
+    opacity: 0.5;
+}
+
+#contactValue, #userValue {
+    font-weight: bold;
+    transform: translateY(-5px);
+}
